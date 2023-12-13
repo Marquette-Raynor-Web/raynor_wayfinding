@@ -4,108 +4,139 @@
 	 width="1911px" height="1080px" viewBox="0 0 1911 1080" enable-background="new 0 0 1911 1080" xml:space="preserve">
 <g id="Base">
 	<g id="Circulation">
-		<path opacity="0.48" fill="#BABABA" enable-background="new    " d="M1300.5,161.5v-70h-163v21h-421v-21h-167v70h-50v428h53v107
-			h103v107.3c53.9-38.3,156.8-64.3,275-64.3c114.6,0,214.9,24.4,270,60.8V696.5h102v-107h46v-428H1300.5z"/>
+		<path opacity="0.48" fill="#BABABA" enable-background="new    " d="M1304.7,162.8v-70h-163v21h-421v-21h-167v70h-50v428h53v107
+			h103v107.3c53.9-38.3,156.8-64.3,275-64.3c114.6,0,214.9,24.4,270,60.8V697.8h102v-107h46v-428H1304.7z"/>
 	</g>
 	<g id="Stairs">
-		<path fill="#97FFC0" d="M1003.5,602.5h75.4v67c0,0-32.4-10.1-75.4-10.5V602.5z"/>
-		<rect x="986" y="449.2" transform="matrix(0.4 -0.9165 0.9165 0.4 164.4454 1216.712)" fill="#97FFC0" width="51" height="67.1"/>
+		<path fill="#97FFC0" d="M1007.7,603.8h75.4v67c0,0-32.4-10.1-75.4-10.5V603.8z"/>
 		
-			<rect x="803.3" y="456.9" transform="matrix(0.9511 -0.309 0.309 0.9511 -108.1067 282.1943)" fill="#97FFC0" width="67.1" height="51"/>
-		<rect x="1183" y="91" fill="#97FFC0" width="117" height="70"/>
-		<rect x="553" y="91" fill="#97FFC0" width="117" height="70"/>
+			<rect x="990.2" y="450.5" transform="matrix(0.4 -0.9165 0.9165 0.4 165.7903 1221.313)" fill="#97FFC0" width="51" height="67.1"/>
+		
+			<rect x="807.6" y="458.2" transform="matrix(0.9511 -0.309 0.309 0.9511 -108.2951 283.5642)" fill="#97FFC0" width="67.1" height="51"/>
+		<rect x="1187.2" y="92.3" fill="#97FFC0" width="117" height="70"/>
+		<rect x="557.2" y="92.3" fill="#97FFC0" width="117" height="70"/>
 	</g>
 	<g id="Lobby">
-		<rect x="812" y="693" fill="#FFC459" width="200" height="38"/>
+		<rect x="816.2" y="694.3" fill="#FFC459" width="200" height="38"/>
 	</g>
 	<g id="Elevator">
-		<rect x="1003.5" y="568.5" fill="#F5FFA0" width="75" height="34"/>
+		<rect x="1007.7" y="569.8" fill="#F5FFA0" width="75" height="34"/>
 	</g>
 </g>
 <g id="PC">
 	<rect x="591.5" y="327.2" fill="#77FFFD" width="40.8" height="220.3"/>
 	<rect x="755.3" y="323" fill="#77FFFD" width="40.8" height="105.7"/>
-	<rect x="1112.3" y="256.7" fill="#77FFFD" width="40.8" height="105.7"/>
+	<rect x="1112.3" y="255" fill="#77FFFD" width="40.8" height="105.7"/>
 	<rect x="1216.4" y="299.5" fill="#77FFFD" width="40.8" height="105.7"/>
 	<rect x="1072.4" y="367" fill="#77FFFD" width="40.8" height="53.2"/>
 	<rect x="1169.2" y="459" fill="#77FFFD" width="87.8" height="40.8"/>
 </g>
-<g id="Rooms">
-	<g id="Circulation_Desk">
-		<g>
-			<path fill="#BDEEFF" d="M958.6,289c-1.1,4.2-4,8.1-8.5,11.3c-6.7,4.8-15.7,7.4-25.4,7.4s-18.8-2.6-25.4-7.4
-				c-4.5-3.2-7.4-7.2-8.5-11.3h-18.2c2.5,19.1,24.9,34,52.1,34s49.7-15,52.1-34H958.6z"/>
-		</g>
-		<rect x="872" y="267" fill="#BDEEFF" width="105" height="12.9"/>
+<g id="Circulation_Desk">
+	<g>
+		<path fill="#BDEEFF" d="M958.6,289c-1.1,4.2-4,8.1-8.5,11.3c-6.7,4.8-15.7,7.4-25.4,7.4s-18.8-2.6-25.4-7.4
+			c-4.5-3.2-7.4-7.2-8.5-11.3h-18.2c2.5,19.1,24.9,34,52.1,34s49.7-15,52.1-34H958.6z"/>
 	</g>
-	<rect id="GS134a6" x="502.5" y="293.5" fill="#FFA2E5" width="53" height="156"/>
-	<rect id="GSWebDig" x="706.5" y="159.5" fill="#FFA2E5" width="49" height="148"/>
-	<rect id="GS165a7" x="1288.5" y="293.5" fill="#FFA2E5" width="53" height="156"/>
-	<rect id="Funding_Information_Center" x="1267" y="182.5" fill="#77FFFD" width="54.5" height="75.7"/>
+	<rect x="872" y="267" fill="#BDEEFF" width="105" height="12.9"/>
+</g>
+<g id="Rooms">
+	<a id="GS134a6" xlink:href="#" >
+		<g>
+			<rect x="503.8" y="296" fill="#FFA2E5" width="51" height="156"/>
+		</g>
+	</a>
+
 	
-		<rect id="Kiosk2" x="796.9" y="431.8" transform="matrix(0.9511 -0.309 0.309 0.9511 -96.4219 276.1949)" fill="#AA95FF" width="53.7" height="21.4"/>
+	<a id="GSWebDig" xlink:href="#" >
+		<g>
+			<rect x="717" y="161" fill="#FFA2E5" width="51" height="148"/>
+		</g>
+	</a>
+
+	<a id="GS165a7" xlink:href="#" >
+		<g>
+			<rect x="1286.9" y="282.7" fill="#FFA2E5" width="51" height="156"/>
+		</g>
+	</a>
+
+	<a id="Funding_Information_Center" xlink:href="#" >
+		<g>
+			<rect x="1281" y="181" fill="#77FFFD" width="54.5" height="75.7"/>
+		</g>
+	</a>
+
+	<a id="Kiosk2" xlink:href="#" >
+		<g>
+			<rect x="796.9" y="431.8" transform="matrix(0.9511 -0.309 0.309 0.9511 -96.4214 276.1928)" fill="#AA95FF" width="53.7" height="21.4"/>
+		</g>
+	</a>
+
+	<a id="R124" xlink:href="#" >
+		<g>
+			<rect x="1015" y="417.5" transform="matrix(0.4 -0.9165 0.9165 0.4 208.2035 1206.6711)" fill="#AA95FF" width="21.4" height="53.7"/>
+		</g>
+	</a>	
 	
-		<rect id="R124" x="1015" y="417.4" transform="matrix(0.4 -0.9165 0.9165 0.4 208.246 1206.6594)" fill="#AA95FF" width="21.4" height="53.7"/>
-	<rect id="Printer2" x="716" y="468" fill="#AA95FF" width="48" height="65"/>
-	<rect id="Printer1" x="1089" y="462" fill="#AA95FF" width="48" height="65"/>
-	<polygon id="Tech_Squad" fill="#5159FF" points="727.5,568.5 727.5,588.5 858.5,588.5 858.5,634.5 877.5,634.5 877.5,588.5 
-		877.5,581.5 877.5,568.5 	"/>
+	<a id="Printer2" xlink:href="#" >
+		<g>
+			<rect x="716" y="469" fill="#AA95FF" width="48" height="65"/>
+		</g>
+	</a>	
+	
+	<a id="Printer1" xlink:href="#" >
+		<g>
+			<rect x="1089" y="462" fill="#AA95FF" width="48" height="65"/>
+		</g>
+	</a>		
+	
+	<a id="Tech_Squad" xlink:href="#" >
+		<g>
+			<polygon fill="#5159FF" points="727.5,568.5 727.5,588.5 858.5,588.5 858.5,634.5 877.5,634.5 877.5,588.5 877.5,581.5 877.5,568.5 	"/>
+		</g>
+	</a>	
 </g>
 <g id="Portals">
-	<line id="Elev.1.floor2" fill="none" stroke="#1800AA" stroke-width="3" x1="1041.2" y1="586.3" x2="1041.2" y2="592.6"/>
-	<line id="Stair.1.floor2" fill="none" stroke="#1800AA" stroke-width="3" x1="1016.5" y1="632.5" x2="1037.2" y2="632.5"/>
-	<line id="Stair.2.floor2" fill="none" stroke="#1800AA" stroke-width="3" x1="986.5" y1="468.5" x2="1004.7" y2="479.4"/>
-	<line id="Stair.3.floor2" fill="none" stroke="#1800AA" stroke-width="3" x1="865" y1="468.5" x2="850.5" y2="472.5"/>
+	<line id="Elev.1.floor2" fill="none" stroke="#1800AA" stroke-width="3" x1="1042" y1="586" x2="1042" y2="592.6"/>
+	<line id="Stair.1.floor2" fill="none" stroke="#1800AA" stroke-width="3" x1="1017" y1="633" x2="1037.2" y2="633"/>
+	<line id="Stair.2.floor2" fill="none" stroke="#1800AA" stroke-width="3" x1="987" y1="469" x2="1004.7" y2="479.4"/>
+	<line id="Stair.3.floor2" fill="none" stroke="#1800AA" stroke-width="3" x1="865" y1="469" x2="850.5" y2="473"/>
 </g>
 <g id="Doors">
+	<line id="GSWebDig_1_" fill="none" stroke="#FCB000" stroke-width="3" x1="681" y1="230" x2="722.1" y2="230"/>
+	<line id="GS165-7_1_" fill="none" stroke="#FCB000" stroke-width="3" x1="1281" y1="337" x2="1288.5" y2="337"/>
 	
-		<line id="GSWebDig_00000026135643444038439420000011124259201156245664_" fill="none" stroke="#FCB000" stroke-width="3" x1="680.8" y1="230.3" x2="722.1" y2="230.3"/>
-	<line id="GS165-7" fill="none" stroke="#FCB000" stroke-width="3" x1="1280.9" y1="337" x2="1288.5" y2="337"/>
-	
-		<line id="Funding_Information_Center_00000034059726761896926770000017510631299917883280_" fill="none" stroke="#FCB000" stroke-width="3" x1="1281.7" y1="255.2" x2="1289.5" y2="247.5"/>
-	
-		<line id="Circulation_Desk_00000149346179056706206740000016855346177289246111_" fill="none" stroke="#FCB000" stroke-width="3" x1="937.5" y1="312.8" x2="937.5" y2="324.6"/>
-	
-		<line id="Kiosk2_00000075867502721866026410000013824260207295103120_" fill="none" stroke="#FCB000" stroke-width="3" x1="823.1" y1="438.9" x2="820" y2="419"/>
-	
-		<line id="Tech_Squad_00000106136261959829143330000007968071624891269031_" fill="none" stroke="#FCB000" stroke-width="3" x1="807.5" y1="545" x2="807.5" y2="570"/>
-	
-		<line id="R124_00000071531990843964067350000013922404072670759841_" fill="none" stroke="#FCB000" stroke-width="3" x1="1034.7" y1="445.5" x2="1034.7" y2="420"/>
-	
-		<line id="GS134a6_00000128446308573618036590000018110915643203042471_" fill="none" stroke="#FCB000" stroke-width="3" x1="567.9" y1="373.5" x2="552.4" y2="371.5"/>
+	<line id="Funding_Information_Center_1_" fill="none" stroke="#FCB000" stroke-width="3" x1="1281" y1="255" x2="1289.5" y2="247.5"/>
+	<line id="Circulation_Desk_1_" fill="none" stroke="#FCB000" stroke-width="3" x1="937.5" y1="312.8" x2="937.5" y2="325"/>
+	<line id="Kiosk2_1_" fill="none" stroke="#FCB000" stroke-width="3" x1="823.1" y1="438.9" x2="820" y2="419"/>
+	<line id="Tech_Squad_1_" fill="none" stroke="#FCB000" stroke-width="3" x1="807.5" y1="545" x2="807.5" y2="570"/>
+	<line id="R124_1_" fill="none" stroke="#FCB000" stroke-width="3" x1="1034.7" y1="445.5" x2="1034.7" y2="420"/>
+	<line id="GS134a6_1_" fill="none" stroke="#FCB000" stroke-width="3" x1="568" y1="374" x2="552.4" y2="371.5"/>
 	<line id="lcd.1" fill="none" stroke="#FCB000" stroke-width="3" x1="938.5" y1="692.6" x2="938.5" y2="717.5"/>
 </g>
 <g id="Paths">
 	<line fill="none" stroke="#00FFFF" x1="938" y1="469" x2="938" y2="545"/>
-	<line fill="none" stroke="#00FFFF" x1="1041.2" y1="543" x2="1041.2" y2="586.3"/>
-	<line fill="none" stroke="#00FFFF" x1="1280.9" y1="346" x2="1281.7" y2="255.2"/>
-	<line fill="none" stroke="#00FFFF" x1="1280.9" y1="542.5" x2="1280.9" y2="346"/>
-	<line fill="none" stroke="#00FFFF" x1="1149.1" y1="542.7" x2="1280.9" y2="542.5"/>
-	<line fill="none" stroke="#00FFFF" x1="972" y1="542.5" x2="1041.2" y2="542.8"/>
-	<line fill="none" stroke="#00FFFF" x1="559.5" y1="566.2" x2="567.9" y2="373.5"/>
-	<line fill="none" stroke="#00FFFF" x1="665" y1="566.2" x2="559.5" y2="566.2"/>
-	<line fill="none" stroke="#00FFFF" x1="705" y1="545" x2="665" y2="566.2"/>
-	<line fill="none" stroke="#00FFFF" x1="938" y1="469" x2="986.5" y2="468.5"/>
-	<line fill="none" stroke="#00FFFF" x1="938" y1="469" x2="865" y2="468.5"/>
-	<line fill="none" stroke="#00FFFF" x1="938" y1="324.6" x2="938" y2="469"/>
-	<line fill="none" stroke="#00FFFF" x1="683" y1="493.4" x2="680.8" y2="230.3"/>
-	<line fill="none" stroke="#00FFFF" x1="683" y1="528" x2="683" y2="493.4"/>
-	<line fill="none" stroke="#00FFFF" x1="705" y1="545.1" x2="683" y2="528"/>
-	<line fill="none" stroke="#00FFFF" x1="972" y1="632.5" x2="1016.5" y2="632.5"/>
-	<line fill="none" stroke="#00FFFF" x1="972" y1="542.5" x2="972" y2="632.5"/>
-	<polyline fill="none" stroke="#00FFFF" points="938,545 971.5,542.5 972,542.5 	"/>
+	<line fill="none" stroke="#00FFFF" x1="1042" y1="543" x2="1042" y2="586"/>
+	<line fill="none" stroke="#00FFFF" x1="1281" y1="346" x2="1281" y2="255"/>
+	<line fill="none" stroke="#00FFFF" x1="1281" y1="543" x2="1281" y2="346"/>
+	<line fill="none" stroke="#00FFFF" x1="1042" y1="543" x2="1281" y2="543"/>
+	<line fill="none" stroke="#00FFFF" x1="972" y1="543" x2="1042" y2="543"/>
+	<line fill="none" stroke="#00FFFF" x1="560" y1="566" x2="568" y2="374"/>
+	<line fill="none" stroke="#00FFFF" x1="665" y1="566" x2="560" y2="566"/>
+	<line fill="none" stroke="#00FFFF" x1="705" y1="545" x2="665" y2="566"/>
+	<line fill="none" stroke="#00FFFF" x1="938" y1="469" x2="987" y2="469"/>
+	<line fill="none" stroke="#00FFFF" x1="938" y1="469" x2="865" y2="469"/>
+	<line fill="none" stroke="#00FFFF" x1="938" y1="325" x2="938" y2="469"/>
+	<line fill="none" stroke="#00FFFF" x1="683" y1="494" x2="681" y2="230"/>
+	<line fill="none" stroke="#00FFFF" x1="683" y1="528" x2="683" y2="494"/>
+	<line fill="none" stroke="#00FFFF" x1="705" y1="545" x2="683" y2="528"/>
+	<line fill="none" stroke="#00FFFF" x1="972" y1="633" x2="1017" y2="633"/>
+	<line fill="none" stroke="#00FFFF" x1="972" y1="543" x2="972" y2="633"/>
+	<line fill="none" stroke="#00FFFF" x1="938" y1="545" x2="972" y2="543"/>
+	<line fill="none" stroke="#00FFFF" x1="972" y1="543" x2="972" y2="543"/>
 	<line fill="none" stroke="#00FFFF" x1="938" y1="545" x2="807" y2="545"/>
 	<line fill="none" stroke="#00FFFF" x1="938" y1="694" x2="938" y2="545"/>
-	<line fill="none" stroke="#00FFFF" x1="807" y1="473.1" x2="807" y2="545.1"/>
-	<line fill="none" stroke="#00FFFF" x1="807" y1="545.1" x2="705" y2="545.1"/>
+	<line fill="none" stroke="#00FFFF" x1="807" y1="473" x2="807" y2="545"/>
+	<line fill="none" stroke="#00FFFF" x1="807" y1="545" x2="705" y2="545"/>
 	
-		<line id="_x3C_Path_x3E__00000177474975047487192370000004697812116639046810_" fill="none" stroke="#00FFFF" x1="820" y1="419" x2="937.5" y2="420"/>
-	
-		<line id="_x3C_Path_x3E__00000062157860037419199180000014099564663375193258_" fill="none" stroke="#00FFFF" x1="1034.7" y1="420" x2="937.5" y2="420"/>
-	
-		<line id="_x3C_Path_x3E__00000162317484807320751460000017729991654235879866_" fill="none" stroke="#00FFFF" x1="1149.1" y1="492.3" x2="1128.4" y2="492.3"/>
-	<line id="_x3C_Path_x3E_" fill="none" stroke="#00FFFF" x1="1149.1" y1="542.7" x2="1149.1" y2="492.3"/>
-	<polyline id="_x3C_Path_x3E__00000160187019974483204510000017326412226679231872_" fill="none" stroke="#00FFFF" points="
-		1041.2,542.8 1046,542.9 1149.1,542.7 	"/>
+
 </g>
 </svg>
