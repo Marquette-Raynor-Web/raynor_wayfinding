@@ -249,7 +249,6 @@
 
 		// Ensure floor ids are unique.
 		function checkIds(el) {
-			debugger;
 			var mapNum,
 				checkNum,
 				reassign = false,
@@ -829,8 +828,11 @@
 			if (options.showLocation) {
 				end = $('#Doors #' + escapeSelector(endPoint), el);
 
+
 				attachPinLocation = $('svg').has('#Rooms a[id="' + escapeSelector(endPoint) + '"]');
+
 				if (end.length) {
+
 					x = (Number(end.attr('x1')) + Number(end.attr('x2'))) / 2;
 					y = (Number(end.attr('y1')) + Number(end.attr('y2'))) / 2;
 
