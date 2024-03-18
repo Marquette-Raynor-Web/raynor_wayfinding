@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1366px" height="768px" viewBox="0 0 1366 768" enable-background="new 0 0 1366 768" xml:space="preserve">
+	 width="1366px" height="768px" viewBox="0 0 1000 600" enable-background="new 0 0 1366 768" xml:space="preserve">
 <path id="Base" fill="#ECECEC" d="M922.8,105.9V55.7c0-4.6-3-10.4-7.6-10.4l-641.6,1.3c-4.6,0-9.1,5.8-9.1,10.4v48.6
 	c0,4-2.9,5.1-6.9,5.1h-26.7c-4.6,0-8.7,5.2-8.7,11.6v364.4c0,4.6,3.9,8.2,8.5,8.2l16,0.1c4.6,0,8.5,3,8.5,7.6v80.3
 	c0.7,3.6,2.4,7.2,7,8h93.5c4.6,0,9.5,5.2,9.5,9.8l0.6,71.1c2.7,3.5,4.5,7,9.7,5.6l3.6-1C422,657.5,497.9,636,603.3,636
 	c92.8,0,178,18.5,225.3,39.7c5.5,2.5,12.8-4.1,10.5-10.5V598c0-4.6,1.3-7.3,5.9-7.3h84.1c4.6,0,8.3-2.4,8.3-7v-80.3
 	c0-4.6,3.7-8.4,8.4-8.4h16.7c4.6,0,8.3-3.7,8.3-8.3V122.3c0-5.2-3.1-12-8.3-12l-34.2,1.3C925.3,111.5,922.8,109,922.8,105.9z"/>
-<g id="Portals">
-	
-		<line id="Stair.1.floor1" fill="none" stroke="#2A2AEA" stroke-width="2" stroke-miterlimit="10" x1="672.9" y1="571.1" x2="683" y2="571.1"/>
-	
-		<line id="Elev.1.floor1" fill="none" stroke="#2A2AEA" stroke-width="2" stroke-miterlimit="10" x1="706.2" y1="530.5" x2="706.2" y2="536.8"/>
-</g>
 <g id="Rooms">
 	<a id="Seminar_1_" xlink:href="#" >
 		<g>
@@ -27,7 +21,7 @@
 				C351.8,469.6,344.7,476.6,336,476.6z"/>
 		</g>
 	</a>
-	<a id="330B_1_" xlink:href="#" >
+	<a id="_x33_30B" xlink:href="#" >
 		<g>
 			<path id="_x3C_Group_x3E__3_" fill="#FFEACC" stroke="#FFD4B0" stroke-miterlimit="10" d="M304.1,203.7h-53.4
 				c-7.9,0-14.3-6.4-14.3-14.3V136c0-7.9,6.4-14.3,14.3-14.3h53.4c7.9,0,14.3,6.4,14.3,14.3v53.4C318.3,197.3,312,203.7,304.1,203.7
@@ -53,8 +47,8 @@
 				C929.1,577,922.8,583.3,914.9,583.3z"/>
 		</g>
 	</a>
-	<path id="Mens3" fill="#3B73FF" d="M792.1,557h-72.4v-19.1c0-6.5,4.6-11.7,11.7-11.7H782c5.6,0,10.1,4.5,10.1,10.1V557z"/>
-	<rect id="Womens3" x="720.7" y="558.8" fill="#F250FF" width="71.4" height="30.5"/>
+	<path id="Mens3" fill="#4841FF" d="M792.1,557h-72.4v-19.1c0-6.5,4.6-11.7,11.7-11.7H782c5.6,0,10.1,4.5,10.1,10.1V557z"/>
+	<rect id="Womens3" x="720.7" y="558.8" fill="#FF5FE8" width="71.4" height="30.5"/>
 </g>
 <g id="Base_1_">
 	<g id="Icons_1_">
@@ -174,7 +168,7 @@
 	</g>
 	<g id="Stair">
 		
-			<rect x="678" y="558.9" transform="matrix(1 -5.706427e-03 5.706427e-03 1 -3.2365 3.9953)" fill="#4C4E52" width="41" height="20.5"/>
+			<rect x="678" y="558.9" transform="matrix(1 -5.706148e-03 5.706148e-03 1 -3.2363 3.9951)" fill="#4C4E52" width="41" height="20.5"/>
 		<g>
 			<path fill="#FFFFFF" d="M691.7,571.5c0.1-0.3,0.3-0.3,0.6-0.3c0.9,0,1.7,0,2.5,0c0.1,0,0.1,0,0.2,0c0-0.1,0-0.2,0-0.2
 				c0-0.9,0-1.7,0-2.5c0-0.4,0.1-0.6,0.5-0.6c0.9,0,1.7,0,2.5,0c0.1,0,0.1,0,0.2,0c0-0.1,0-0.1,0-0.2c0-0.9,0-1.7,0-2.5
@@ -191,21 +185,21 @@
 </g>
 <g id="Doors">
 	
-	<line id="DeanOffice" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="625" y1="536.8" x2="625" y2="549.2"/>
+		<line id="DeansOffice" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="625" y1="536.8" x2="625" y2="549.2"/>
 	
-	<line id="Seminar" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="343.8" y1="505.5" x2="343.8" y2="518"/>
+		<line id="Seminar" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="343.8" y1="505.5" x2="343.8" y2="518"/>
 	<line id="CFTaL" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="350" y1="368" x2="337.5" y2="368"/>
 	
-	<line id="330B" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="318.8" y1="193" x2="306.2" y2="193"/>
+		<line id="_x33_30B_1_" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="318.8" y1="193" x2="306.2" y2="193"/>
 	
-	<line id="Archives" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="900" y1="418" x2="906.2" y2="418"/>
+		<line id="Archives" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="900" y1="418" x2="906.2" y2="418"/>
 	<line id="Prucha" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="881.2" y1="393" x2="875" y2="393"/>
 	
-	<line id="Conference" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="862.5" y1="499.2" x2="862.5" y2="505.5"/>
+		<line id="Conference" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="862.5" y1="499.2" x2="862.5" y2="505.5"/>
 	
-	<line id="Mens3_1_" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="793.8" y1="543" x2="785.2" y2="543"/>
+		<line id="Mens3_1_" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="793.8" y1="543" x2="785.2" y2="543"/>
 	
-	<line id="Womens3_1_" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="793.8" y1="568" x2="786.9" y2="568"/>
+		<line id="Womens3_1_" fill="none" stroke="#FFBF40" stroke-width="2" stroke-miterlimit="10" x1="793.8" y1="568" x2="786.9" y2="568"/>
 </g>
 <g id="Labels_1_">
 	<text transform="matrix(1 0 0 1 276.8668 520.8088)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Tommy G. </text>
@@ -213,23 +207,23 @@
 	<text transform="matrix(1 0 0 1 276.8668 546.1088)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Seminar</text>
 	<text transform="matrix(1 0 0 1 276.8668 558.8088)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Room</text>
 	
-		<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 270.8627 452.0508)" fill="#333333" font-family="'Retroica'" font-size="15.8271px">Center for Teaching</text>
+		<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 270.8627 452.051)" fill="#333333" font-family="'Retroica'" font-size="15.8271px">Center for Teaching</text>
 	
-		<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 289.8627 452.0508)" fill="#333333" font-family="'Retroica'" font-size="15.8271px">and Learning</text>
+		<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 289.8627 452.051)" fill="#333333" font-family="'Retroica'" font-size="15.8271px">and Learning</text>
 	<text transform="matrix(1 0 0 1 247.3999 138.9154)" fill="#333333" font-family="'Retroica'" font-size="12px">Classroom</text>
 	<text transform="matrix(1 0 0 1 247.3999 153.3154)" fill="#333333" font-family="'Retroica'" font-size="12px">330 B</text>
 	<text transform="matrix(1 0 0 1 563.7688 608.392)" fill="#333333" font-family="'Retroica'" font-size="15.8271px">Dean of Libraries</text>
 	<text transform="matrix(1 0 0 1 585.7001 626.7089)" fill="#333333" font-family="'Retroica'" font-size="15.8271px">Office 309 </text>
 	
-		<text transform="matrix(-3.267949e-07 -1 1 -3.267949e-07 918.0762 463.677)" fill="#333333" font-family="'Retroica'" font-size="12px">Archival Collections </text>
+		<text transform="matrix(-3.267949e-07 -1 1 -3.267949e-07 918.0762 463.6771)" fill="#333333" font-family="'Retroica'" font-size="12px">Archival Collections </text>
 	
-		<text transform="matrix(-3.267949e-07 -1 1 -3.267949e-07 918.0761 337.7756)" fill="#333333" font-family="'MyriadPro-Semibold'" font-size="12px">&amp;</text>
+		<text transform="matrix(-3.267949e-07 -1 1 -3.267949e-07 918.0761 337.7757)" fill="#333333" font-family="'MyriadPro-Semibold'" font-size="12px">&amp;</text>
 	
-		<text transform="matrix(-3.267949e-07 -1 1 -3.267949e-07 932.4762 463.677)" fill="#333333" font-family="'Retroica'" font-size="12px">Institutional Repository </text>
+		<text transform="matrix(-3.267949e-07 -1 1 -3.267949e-07 932.4762 463.6771)" fill="#333333" font-family="'Retroica'" font-size="12px">Institutional Repository </text>
 	
-		<text transform="matrix(-3.267949e-07 -1 1 -3.267949e-07 946.8762 463.675)" fill="#333333" font-family="'Retroica'" font-size="12px">360</text>
+		<text transform="matrix(-3.267949e-07 -1 1 -3.267949e-07 946.8762 463.6751)" fill="#333333" font-family="'Retroica'" font-size="12px">360</text>
 	
-		<text transform="matrix(-3.267949e-07 -1 1 -3.267949e-07 868.5922 437.216)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Prucha Reading Room</text>
+		<text transform="matrix(-3.267949e-07 -1 1 -3.267949e-07 868.5922 437.2162)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Prucha Reading Room</text>
 	<g>
 		<text transform="matrix(1 0 0 1 515.6287 187.5154)" fill="#333333" font-family="'Retroica'" font-size="31px">Storage </text>
 		<text transform="matrix(1 0 0 1 515.6287 224.7154)" fill="#333333" font-family="'Retroica'" font-size="31px">Archival</text>
@@ -268,7 +262,12 @@
 	<line fill="none" stroke="#41FF73" stroke-width="2" stroke-miterlimit="10" x1="856.2" y1="455.5" x2="893.8" y2="455.5"/>
 	<line fill="none" stroke="#41FF73" stroke-width="2" stroke-miterlimit="10" x1="856.2" y1="474.2" x2="856.2" y2="455.5"/>
 	<line fill="none" stroke="#41FF73" stroke-width="2" stroke-miterlimit="10" x1="893.8" y1="418" x2="900" y2="418"/>
-	<line fill="none" stroke="#41FF73" stroke-width="2" stroke-miterlimit="10" x1="706.2" y1="493" x2="706.2" y2="530.5"/>
 	<line fill="none" stroke="#41FF73" stroke-width="2" stroke-miterlimit="10" x1="672.9" y1="493" x2="672.9" y2="571.1"/>
+	
+		<line id="_x3C_Path_x3E_" fill="none" stroke="#41FF73" stroke-width="2" stroke-miterlimit="10" x1="706.2" y1="493" x2="706.2" y2="530.5"/>
+</g>
+<g id="Portals">
+	<line id="Stair.3.floor1" fill="none" stroke="#4E54A4" stroke-miterlimit="10" x1="672.9" y1="571.1" x2="683" y2="571.1"/>
+	<line id="Elev.3.floor1" fill="none" stroke="#4E54A4" stroke-miterlimit="10" x1="706.2" y1="530.5" x2="706.2" y2="534.5"/>
 </g>
 </svg>

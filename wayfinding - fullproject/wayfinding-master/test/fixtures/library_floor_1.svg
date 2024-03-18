@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1366px" height="768px" viewBox="0 0 1366 768" enable-background="new 0 0 1366 768" xml:space="preserve">
+	 width="1366px" height="768px" viewBox="0 0 1000 600" enable-background="new 0 0 1366 768" xml:space="preserve">
 <g id="Background">
 	<path fill="#ECECEC" d="M935.4,107.2V57c0-4.6-3-10.4-7.6-10.4H275.6c-4.6,0-9.1,5.8-9.1,10.4v48.6c0,4-2.9,5.1-6.9,5.1h-26.7
 		c-4.6,0-8.7,5.2-8.7,11.6v364.4c0,4.6,3.9,8.2,8.5,8.2l16,0.1c4.6,0,8.5,3,8.5,7.6v80.3c0.7,3.6,2.4,7.2,7,8h93.5
@@ -18,7 +18,7 @@
 		c4.6,0,8.4,3.7,8.4,8.4V486c0,4.6-3.7,8.4-8.4,8.4h-16.9c-4.6,0-8.4,3.7-8.4,8.4V582c0,4.6-3.7,8.4-8.4,8.4h-87.6h-31.3
 		c-1.4,0-2.8-0.4-4-1.1c-9.1-5.1-54.3-27.1-162.7-27.7c-4.6,0-8.3-3.7-8.3-8.4v-64.3"/>
 	<path fill="none" stroke="#8F8F8F" stroke-width="1.92" stroke-miterlimit="9.6" d="M683,480h116.4c4.6,0,8.4,3.7,8.4,8.4v25.2
-		l-16.6,0"/>
+		h-16.6"/>
 	<polyline fill="none" stroke="#8F8F8F" stroke-width="1.92" stroke-miterlimit="9.6" points="731,480 731,537.8 731,567.8 	"/>
 	<path fill="none" stroke="#8F8F8F" stroke-width="1.92" stroke-miterlimit="9.6" d="M366.2,590.4v78.3c0,6,6,10,11.6,7.7
 		c45.9-19.1,223.2-80.5,451-1.5c5.5,1.9,11.1-2.1,11.1-7.9v-76.6"/>
@@ -149,11 +149,11 @@
 	
 		<line id="Stair.1.floor0" fill="none" stroke="#004FE7" stroke-width="0.96" stroke-miterlimit="9.6" x1="673.3" y1="542.3" x2="699.7" y2="541.9"/>
 	
-		<line id="Stair.3.floor3" fill="none" stroke="#004FE7" stroke-width="0.96" stroke-miterlimit="9.6" x1="673" y1="534.4" x2="699.4" y2="530.6"/>
-	
 		<line id="Stair.4.floor2" fill="none" stroke="#1734FF" stroke-width="0.96" stroke-miterlimit="9.6" x1="553.4" y1="384" x2="548.6" y2="384"/>
 	
 		<line id="Stair.5.floor2" fill="none" stroke="#1734FF" stroke-width="0.96" stroke-miterlimit="9.6" x1="635" y1="384" x2="639.8" y2="384"/>
+	
+		<line id="Stair.3.floor3" fill="none" stroke="#004FE7" stroke-width="0.96" stroke-miterlimit="9.6" x1="673" y1="538.4" x2="699.4" y2="538.4"/>
 </g>
 <g id="Doors">
 	
@@ -227,7 +227,8 @@
 	<line fill="none" stroke="#FF4BE8" stroke-width="0.96" stroke-miterlimit="9.6" x1="816.4" y1="460.8" x2="899" y2="460.8"/>
 	<line fill="none" stroke="#FF4BE8" stroke-width="0.96" stroke-miterlimit="9.6" x1="769.4" y1="460.8" x2="816.4" y2="460.8"/>
 	<line fill="none" stroke="#FF4BE8" stroke-width="0.96" stroke-miterlimit="9.6" x1="659" y1="542.4" x2="673.3" y2="542.3"/>
-	<line fill="none" stroke="#FF4BE8" stroke-width="0.96" stroke-miterlimit="9.6" x1="659" y1="534.4" x2="659" y2="542.4"/>
+	<line fill="none" stroke="#FF4BE8" stroke-width="0.96" stroke-miterlimit="9.6" x1="659" y1="538.4" x2="659" y2="542.4"/>
+	<line fill="none" stroke="#FF4BE8" stroke-width="0.96" stroke-miterlimit="9.6" x1="659" y1="534.4" x2="659" y2="538.4"/>
 	<line fill="none" stroke="#FF4BE8" stroke-width="0.96" stroke-miterlimit="9.6" x1="659" y1="460.8" x2="659" y2="534.4"/>
 	<line fill="none" stroke="#FF4BE8" stroke-width="0.96" stroke-miterlimit="9.6" x1="591.8" y1="384" x2="635" y2="384"/>
 	<line fill="none" stroke="#FF4BE8" stroke-width="0.96" stroke-miterlimit="9.6" x1="553.4" y1="384" x2="591.8" y2="384"/>
@@ -244,6 +245,7 @@
 		<line id="_x3C_Path_x3E__2_" fill="none" stroke="#FF4BE8" stroke-width="0.96" stroke-miterlimit="9.6" x1="713.4" y1="460.8" x2="713.4" y2="479.1"/>
 	
 		<line id="_x3C_Path_x3E__1_" fill="none" stroke="#FF4BE8" stroke-width="0.96" stroke-miterlimit="9.6" x1="706.3" y1="460.8" x2="706.3" y2="479.1"/>
+	<line fill="none" stroke="#FF4BE8" stroke-width="0.96" stroke-miterlimit="9.6" x1="659" y1="538.4" x2="673" y2="538.4"/>
 </g>
 <g id="Icons">
 	<g>
@@ -330,14 +332,14 @@
 </g>
 <g id="LABELS">
 	<g>
-		<text transform="matrix(0 -1 1 0 253.4471 408.0166)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Study room</text>
-		<text transform="matrix(0 -1 1 0 266.1471 381.4775)" fill="#333333" font-family="'Retroica'" font-size="10.56px">134</text>
+		<text transform="matrix(0 -1 1 0 253.4471 408.0168)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Study room</text>
+		<text transform="matrix(0 -1 1 0 266.1471 381.4777)" fill="#333333" font-family="'Retroica'" font-size="10.56px">134</text>
 	</g>
 	<text transform="matrix(1 0 0 1 383.092 137.6646)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Media</text>
 	<text transform="matrix(1 0 0 1 383.092 150.3646)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Editing</text>
 	<text transform="matrix(1 0 0 1 383.092 162.9646)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Room</text>
-	<text transform="matrix(0.8721 0 0 1 383.0391 208.6025)" fill="#333333" font-family="'Retroica'" font-size="10.5295px">Webinar</text>
-	<text transform="matrix(0.8721 0 0 1 383.0391 221.2021)" fill="#333333" font-family="'Retroica'" font-size="10.5295px">Room</text>
+	<text transform="matrix(0.8721 0 0 1 383.0391 208.6027)" fill="#333333" font-family="'Retroica'" font-size="10.5295px">Webinar</text>
+	<text transform="matrix(0.8721 0 0 1 383.0391 221.2023)" fill="#333333" font-family="'Retroica'" font-size="10.5295px">Room</text>
 	<text transform="matrix(1 0 0 1 383.673 273.6)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Study</text>
 	<text transform="matrix(1 0 0 1 383.673 286.3)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Room</text>
 	<g>
@@ -359,8 +361,8 @@
 	<text transform="matrix(1 0 0 1 689.6334 358.5805)" fill="#333333" font-family="'Retroica'" font-size="7.5974px">Rental</text>
 	<text transform="matrix(1 0 0 1 454.085 405.042)" fill="#333333" font-family="'Retroica'" font-size="7.5974px">Printers</text>
 	<g>
-		<text transform="matrix(0 -1 1 0 253.5261 305.4443)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Study Room</text>
-		<text transform="matrix(0 -1 1 0 266.2261 279.1328)" fill="#333333" font-family="'Retroica'" font-size="10.56px">136</text>
+		<text transform="matrix(0 -1 1 0 253.5261 305.4445)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Study Room</text>
+		<text transform="matrix(0 -1 1 0 266.2261 279.133)" fill="#333333" font-family="'Retroica'" font-size="10.56px">136</text>
 	</g>
 	<text transform="matrix(0 1 -1 0 948.2578 301.0149)" fill="#333333" font-family="'Retroica'" font-size="10.56px">Study Room</text>
 	<text transform="matrix(0 1 -1 0 935.5586 301.0149)" fill="#333333" font-family="'Retroica'" font-size="10.56px">165 </text>
