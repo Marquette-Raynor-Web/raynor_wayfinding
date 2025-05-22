@@ -9,38 +9,104 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="styles/example.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js"
 		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 
 <body>
 	<div id="content">
-		<div id="myMaps">
+		<div class="popup">
+			<div class="popupContent" id="myPopup">
+				<button id="popupExitButton"><i class="fa-solid fa-circle-xmark fa-3x"></i></button>
+				<h4 class="floor_header">Floor 1</h4>
+				<div class="floorDestinationBox">
+					<button value="ServicesDesk" class="destination_button"><i class="fa-solid fa-location-dot"></i> Library Services Desk</button>
+					<button value="Webinar" class="destination_button"><i class="fa-solid fa-location-dot"></i> Webinar Room</button>
+					<button value="GroupStudyRoom" class="destination_button"><i class="fa-solid fa-location-dot"></i> Group Study Room</button>
+					<button value="MediaEditing" class="destination_button"><i class="fa-solid fa-location-dot"></i> Media Editing Room</button>
+					<button value="GroupStudy-165" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study Room 165</button>
+					<button value="GroupStudy-167" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study Room 167</button>
+					<button value="Womens" class="destination_button"><i class="fa-solid fa-location-dot"></i> Womens Restroom</button>
+					<button value="Mens" class="destination_button"><i class="fa-solid fa-location-dot"></i> Mens Restroom</button>
+					<button value="TechSquad" class="destination_button"><i class="fa-solid fa-location-dot"></i> Tech Squad</button>
+					<button value="LaptopL" class="destination_button"><i class="fa-solid fa-location-dot"></i> Left Laptop Rental</button>
+					<button value="LaptopR" class="destination_button"><i class="fa-solid fa-location-dot"></i> Right Laptop Rental</button>
+					<button value="PrinterL" class="destination_button"><i class="fa-solid fa-location-dot"></i> Left Printer</button>
+					<button value="PrinterR" class="destination_button"><i class="fa-solid fa-location-dot"></i> Right Printer</button>
+					<button value="GroupStudy-134" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study Room 134</button>
+					<button value="GroupStudy-136" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study Room 136</button>
+				</div>
+				<h4 class="floor_header">Floor 2</h4>
+				<div class="floorDestinationBox">
+					<button value="Ott" class="destination_button"><i class="fa-solid fa-location-dot"></i> Ott Writing Center</button>
+					<button value="Study217" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study 217</button>
+					<button value="Study215" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study 215</button>
+					<button value="Classroom245" class="destination_button"><i class="fa-solid fa-location-dot"></i> Classroom 245</button>
+					<button value="Classroom227" class="destination_button"><i class="fa-solid fa-location-dot"></i> Classroom 227</button>
+					<button value="Study221" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study 221</button>
+					<button value="Study223" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study 223</button>
+					<button value="Printerf2" class="destination_button"><i class="fa-solid fa-location-dot"></i> Printer f2</button>
+				</div>
+				<h4 class="floor_header">Floor 3</h4>
+				<div class="floorDestinationBox">
+					<button value="Seminar" class="destination_button"><i class="fa-solid fa-location-dot"></i> Tommy G. Thompson Seminar Room</button>
+					<button value="CFTaL" class="destination_button"><i class="fa-solid fa-location-dot"></i> Center for Teaching and Learning</button>
+					<button value="Prucha" class="destination_button"><i class="fa-solid fa-location-dot"></i> Prucha Reading Room</button>
+					<button value="Archives" class="destination_button"><i class="fa-solid fa-location-dot"></i> Archival Collection & Institutional Repository</button>
+					<button value="Conference" class="destination_button"><i class="fa-solid fa-location-dot"></i> Conference Room</button>
+					<button value="Prucha" class="destination_button"><i class="fa-solid fa-location-dot"></i> Prucha Reading Room</button>
+				</div>
+				<h4 class="floor_header">Floor 0</h4>
+				<div class="floorDestinationBox">
+					<button value="PrinterfB" class="destination_button"><i class="fa-solid fa-location-dot"></i> Printer Basement</button>
+					<button value="GS-030" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study Room 030</button>
+					<button value="GS-030" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study Room 030</button>
+					<button value="GS-028" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study Room 028</button>
+					<button value="GS-026" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study Room 026</button>
+					<button value="Meditation" class="destination_button"><i class="fa-solid fa-location-dot"></i> Quiet Room</button>
+					<button value="GS-F" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study Room F</button>
+					<button value="GS-G" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study Room G</button>
+					<button value="GS-H" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study Room H</button>
+					<button value="GS-E" class="destination_button"><i class="fa-solid fa-location-dot"></i> Study Room E</button>
+					<button value="SurfaceHub" class="destination_button"><i class="fa-solid fa-location-dot"></i> Surface Hub</button>
+					<button value="B-Suite-060C" class="destination_button"><i class="fa-solid fa-location-dot"></i> Beaumier Suite C</button>
+					<button value="B-Suite-060B" class="destination_button"><i class="fa-solid fa-location-dot"></i> Beaumier Suite B</button>
+					<button value="IR-060A" class="destination_button"><i class="fa-solid fa-location-dot"></i> Institutional Repository</button>
+					<button value="B-Suite-060D" class="destination_button"><i class="fa-solid fa-location-dot"></i> Beaumier Suite D</button>
+				</div>
+			</div>
+		  </div>
+
+		<div class="filter">
+
 		</div>
-		<div id="controls">
-			<label>Show</label>
-			<button id="floor1">1st Floor</button>
-			<button id="floor2">2nd Floor</button>
-			<button id="floor3">3rd Floor</button>
-			<button id="floor0">Basement</button>
 
-			<label for="beginSelect">Begin Route at</label>
-			<select id="beginSelect">
-				<option value="lobby">Lobby</option>
-			</select>
-			<label for="endSelect">Show Route to</label>
-			<select id="endSelect">
-				<option></option>
-				<option disabled="true">West 1st</option>
-				<option value="Circulation_Desk">Circulation Desk</option>
+		<div id="contentRow">
+			<div id="myMaps">
+			</div>
+	
+			<div class="contentRight" id="contentRight">
+				<button id="endingPointButton" class="routeSelectionButton">SELECT DESTINATION</button>
 
-			</select>
-			<label for="accessible">Accessible</label>
-			<input id="accessible" type="checkbox" name="accessible" value="Accessible" />
+
+				<div class="floorsLabel">Floors</div>
+				<div id="floorButtons">
+					<button id="floor1" class="floorButtonActive">1</button>
+					<button id="floor2" class="floorButton">2</button>
+					<button id="floor3" class="floorButton">3</button>
+					<button id="floor0" class="floorButton">0</button>
+				</div>
+
+				<div id="accessibilityOption">
+					<input id="accessibleButton" type="checkbox" name="accessible" value="Accessible"/>
+					<label id="accessibleLabel" for="accessible">Elevators only</label>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div>
-		<h1>Wayfinding Demo</h1>
+		<!-- <h1>Wayfinding Demo</h1>
 		<p>Works with Chrome, Firefox, and Opera. IE will show path, but is not animating the path.</p>
 		<li>Route to room 201 and try it with the Accessible option on and off an you will see that the accessible
 			route takes the elevator rather than the stairs even though the path is longer. Accessible routing will
@@ -61,7 +127,7 @@
 		<li>one way paths - work in progress</li>
 		<li>portal lengths as route consideration - work in progress</li>
 		<li>$('#myMaps').wayfinding('checkMap') make into clickable report into report div</li>
-		<li>in addition to checkMap, add a dump parse, consider a load parse from JSON</li>
+		<li>in addition to checkMap, add a dump parse, consider a load parse from JSON</li> -->
 		</ul>
 	</div>
 
@@ -70,6 +136,7 @@
 	<script src="src/jquery.wayfinding.js"></script>
 
 	<script>
+		let selectedDestination = null;
 		$(document).ready(function () {
 			'use strict';
 			$('#myMaps').wayfinding({
@@ -78,10 +145,9 @@
 					{ 'path': 'test/fixtures/library_floor_2.svg', 'id': 'floor2' },
 					{ 'path': 'test/fixtures/library_floor_3.svg', 'id': 'floor3' },
 					{ 'path': 'test/fixtures/library_floor_B.svg', 'id': 'floor0' }
-
 				],
 				'path': {
-					width: 3,
+					width: 10,
 					color: '#FFFF00',
 					radius: 8,
 					speed: 8
@@ -95,35 +161,55 @@
 				console.log('callback reached');
 			});
 
-			//make the floor buttons clickable
-			$('#controls button').click(function () {
+			$('#popupExitButton').click(function () {
+				$('#myPopup').css('visibility', 'hidden');
+				$('.filter').css('height', '0px');
+				$('.filter').css('visibility', 'hidden');
+				$('#myPopup').css('height', '0px');
+				$('#myPopup').css('padding-bottom', '0px');
+			});
+
+			$('#endingPointButton').click(function () {
+				$('.filter').css('visibility', 'visible');
+				$('#myPopup').css('visibility', 'visible');
+				$('.filter').css('height', '950px');
+				$('#myPopup').css('height', '750px');
+				$('#myPopup').css('padding-bottom', '50px');
+			});
+
+			// make the floor buttons clickable
+			$('#floorButtons button').click(function () {
+				// $('.floorButton').addClass('floorButton');
+				$('#floorButtons button').removeClass('floorButtonActive').addClass('floorButton');
+				$(this).addClass('floorButtonActive');
+				$(this).removeClass('floorButton');
 				$('#myMaps').wayfinding('currentMap', $(this).prop('id'));
 			});
 
-			$('#controls #beginSelect').change(function () {
-				$('#myMaps').wayfinding('startpoint', $(this).val());
-				if ($('#endSelect').val() !== '') {
-					$('#myMaps').wayfinding('routeTo', $('#endSelect').val());
-				}
-			});
-
-			$('#controls #endSelect').change(function () {
+			$('.destination_button').click(function () {
+				selectedDestination = $(this).val(); 
+				console.log('Saved destination:', selectedDestination); // Optional debug log
+				$('#myPopup').css('visibility', 'hidden');
+				$('.filter').css('visibility', 'hidden');
 				$('#myMaps').wayfinding('routeTo', $(this).val());
 			});
 
-			$('#controls #accessible').change(function () {
-				if ($('#accessible:checked').val() !== undefined) {
+			$('#accessibilityOption #accessibleButton').change(function () {
+				if ($('#accessibleButton:checked').val() !== undefined) {
 					$('#myMaps').wayfinding('accessibleRoute', true);
 				} else {
 					$('#myMaps').wayfinding('accessibleRoute', false);
 				}
-				if ($('#endSelect').val() !== '') {
-					$('#myMaps').wayfinding('routeTo', $('#endSelect').val());
+				console.log(selectedDestination);
+				if (selectedDestination !== null) {
+					$('#myMaps').wayfinding('routeTo', selectedDestination);
 				}
 			});
 
 			$('#myMaps').on('wayfinding:roomClicked', function (e, r) {
-				$('#endSelect option[value="' + r.roomId + '"]').attr('selected', true);
+				selectedDestination = r.roomId;
+				console.log(r.roomId);
+				// $('#endSelect option[value="' + r.roomId + '"]').attr('selected', true);
 			});
 
 		});

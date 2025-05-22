@@ -197,7 +197,7 @@
 		var passed = options,
 			obj, // the jQuery object being worked with;
 			maps, // the array of maps populated from options each time
-			defaultMap, // the floor to show at start propulated from options
+			defaultMap, // the floor to show at start populated from options
 			startpoint, // the result of either the options.startpoint value or the value of the function
 			portalSegments = [], // used to store portal pieces until the portals are assembled, then this is dumped.
 			solution,
@@ -212,6 +212,8 @@
 		 * @param {string} sel the jQuery selector to escape
 		 * @description to handle jQuery selecting ids with periods and other special characters
 		 */
+
+		// escapeSelector is used to escape special characters in a CSS selector string so that it can be safely used with jQuery or document.querySelector.
 		function escapeSelector(sel) {
 			return sel.replace(/(:|\.|\[|\])/g, '\\$1');
 		}
@@ -221,9 +223,10 @@
 		// that you are (i / steps) of the way through the process
 		function interpolateValue(oldValue, newValue, i, steps) {
 			return (((steps - i) / steps) * oldValue) + ((i / steps) * newValue);
+			// return (((steps remaining) / total steps) * last location value) + ((steps already taken / total steps) * next location value);
 		}
 
-		function CheckMapEmpty(value) {
+		function CheckMapEmpty(value) { 
 			this.value = value;
 			this.message = ' no maps identified in collection to load';
 			this.toString = function () {
@@ -343,10 +346,8 @@
 				matches,
 				portal,
 				portalId;
-
 			//Paths
 			dataStore.p[mapNum] = [];
-
 			$('#Paths line', el).each(function () {
 				path = {};
 				path.floor = map.id; // floor_1
@@ -363,8 +364,8 @@
 				path.l = Math.sqrt(Math.pow(path.x - path.m, 2) + Math.pow(path.y - path.n, 2));
 
 				path.c = []; //other paths
-				path.q = []; // connected portals
 
+				path.q = []; // connected portals
 				dataStore.p[mapNum].push(path);
 			});
 
@@ -376,6 +377,7 @@
 				y1 = $(this).attr('y1');
 				x2 = $(this).attr('x2');
 				y2 = $(this).attr('y2');
+
 				doorId = $(this).attr('id');
 
 				$.each(dataStore.p[mapNum], function (index, segment) {
@@ -450,7 +452,6 @@
 			for (segmentOuterNum = 0; segmentOuterNum < portalSegments.length; segmentOuterNum++) {
 
 				outerSegment = portalSegments[segmentOuterNum];
-
 				if (outerSegment.matched === false) {
 
 					for (segmentInnerNum = segmentOuterNum; segmentInnerNum < portalSegments.length; segmentInnerNum++) {
@@ -464,7 +465,6 @@
 
 							portal.t = outerSegment.type;
 							portal.a = (portal.t === 'Elev' || portal.t === 'Door') ? true : false; // consider changing to != Stair
-
 							//							portal.idA = outerSegment.id;
 							portal.f = outerSegment.floor;
 							portal.g = outerSegment.mapNum;
@@ -496,6 +496,7 @@
 			for (mapNum = 0; mapNum < maps.length; mapNum++) {
 				for (pathOuterNum = 0; pathOuterNum < dataStore.p[mapNum].length - 1; pathOuterNum++) {
 					for (pathInnerNum = pathOuterNum + 1; pathInnerNum < dataStore.p[mapNum].length; pathInnerNum++) {
+
 						if (
 							(dataStore.p[mapNum][pathInnerNum].x === dataStore.p[mapNum][pathOuterNum].x &&
 								dataStore.p[mapNum][pathInnerNum].y === dataStore.p[mapNum][pathOuterNum].y) ||
@@ -551,7 +552,8 @@
 					'paths': [],
 					'floor': null
 				};
-
+			console.log("door");
+			console.log(door);
 			for (mapNum = 0; mapNum < maps.length; mapNum++) {
 				for (pathNum = 0; pathNum < dataStore.p[mapNum].length; pathNum++) {
 					for (doorANum = 0; doorANum < dataStore.p[mapNum][pathNum].d.length; doorANum++) {
@@ -561,6 +563,11 @@
 						}
 					}
 					for (doorBNum = 0; doorBNum < dataStore.p[mapNum][pathNum].e.length; doorBNum++) {
+						if (mapNum === 3) {
+							console.log("iteration");
+							console.log(pathNum);
+							console.log(dataStore.p[mapNum][pathNum].e[doorANum]);
+						}
 						if (dataStore.p[mapNum][pathNum].e[doorBNum] === door) {
 							doorPaths.paths.push(pathNum); // only pushing pathNum because starting on a single floor
 							doorPaths.floor = dataStore.p[mapNum][pathNum].floor;
@@ -575,6 +582,7 @@
 			//SegmentType is PAth or POrtal, segment floor limits search, segment is id per type and floor, length is total length of current thread
 			// for each path on this floor look at all the paths we know connect to it
 
+
 			// for each connection
 			$.each(dataStore.p[segmentFloor][segment].c, function (i, tryPath) {
 				// check and see if the current path is a shorter path to the new path
@@ -585,10 +593,9 @@
 					recursiveSearch('pa', segmentFloor, tryPath, dataStore.p[segmentFloor][tryPath].r);
 				}
 			});
-
 			// if the current path is connected to any portals
-			if (dataStore.p[segmentFloor][segment].q.length > 0) {
 
+			if (dataStore.p[segmentFloor][segment].q.length > 0) {
 				// look at each portal, tryPortal is portal index in portals
 				$.each(dataStore.p[segmentFloor][segment].q, function (i, tryPortal) {
 
@@ -629,7 +636,6 @@
 			var sourceInfo,
 				mapNum,
 				sourcemapNum;
-
 			sourceInfo = getDoorPaths(startpoint);
 
 			for (mapNum = 0; mapNum < maps.length; mapNum++) {
@@ -638,7 +644,6 @@
 					break;
 				}
 			}
-
 			$.each(sourceInfo.paths, function (i, pathId) {
 				dataStore.p[sourcemapNum][pathId].r = dataStore.p[sourcemapNum][pathId].l;
 				dataStore.p[sourcemapNum][pathId].p = 'door';
@@ -678,8 +683,9 @@
 				reversePathStart,
 				minPath,
 				i;
-
 			destInfo = getDoorPaths(options.endpoint);
+			console.log("destInfo");
+			console.log(destInfo);
 
 			for (mapNum = 0; mapNum < maps.length; mapNum++) {
 				if (maps[mapNum].id === destInfo.floor) {
@@ -687,12 +693,10 @@
 					break;
 				}
 			}
-
+			console.log(dataStore);
 			minPath = Infinity;
 			reversePathStart = -1;
-
 			for (i = 0; i < destInfo.paths.length; i++) {
-
 				if (dataStore.p[destinationmapNum][destInfo.paths[i]].r < minPath) {
 					minPath = dataStore.p[destinationmapNum][destInfo.paths[i]].r;
 					reversePathStart = destInfo.paths[i];
@@ -721,8 +725,8 @@
 				// cleanupSVG(map.el); // commented out as already run by initialize
 				buildDataStore(i, map, map.el);
 			});
-
 			buildPortals();
+
 			generateRoutes();
 
 			return dataStore;
@@ -731,7 +735,6 @@
 		// Ensure a dataStore exists and is set, whether from a cache
 		// or by building it.
 		function establishDataStore(onReadyCallback) {
-
 			if (options.dataStoreCache) {
 				if (typeof options.dataStoreCache === 'object') {
 
@@ -744,7 +747,7 @@
 					var cacheUrl = options.dataStoreCache + startpoint + ((options.accessibleRoute) ? '.acc' : '') + '.json';
 
 					$.getJSON(cacheUrl, function (response) {
-
+						
 						dataStore = response;
 
 						if (typeof onReadyCallback === 'function') {
@@ -760,7 +763,6 @@
 					});
 				}
 			} else {
-
 				dataStore = build();
 
 				if (typeof onReadyCallback === 'function') {
@@ -824,7 +826,6 @@
 
 			//clears locationIndicators from the maps
 			$('g.destinationPin', el).remove();
-
 			if (options.showLocation) {
 				end = $('#Doors #' + escapeSelector(endPoint), el);
 
@@ -900,7 +901,7 @@
 			width = Math.ceil(width / 2) * 2;
 
 			// if ($(el).css('padding-bottom') === '' || $(el).css('padding-bottom') === '0px') {
-			$(el).css('padding-bottom', (100 * (height / width)) + '%');
+			$(el).css('padding-bottom', (30 * (height / width)) + '%');
 
 			svg.attr('height', '100%')
 				.attr('width', '100%')
@@ -974,24 +975,27 @@
 
 		// Called when animatePath() is switching the floor and also when
 		function switchFloor(floor, el) {
+			// floor is floor id and el is the JQuery object
 			var height = $(el).height();
-
+			// The height is simply the height of the map in pixels
 			$(el).height(height); // preserve height as I'm not yet set switching
 
+			// Next we hide the old floor map
 			$('div', el).hide();
 
+			// This code makes the new floor map visible
 			$('#' + floor, el).show(0, function () {
 				$(el).trigger('wayfinding:floorChanged', { mapId: floor });
 			});
-
+			
 			//turn floor into mapNum, look for that in drawing
 			// if there get drawing[level].routeLength and use that.
 
 			var i, level, mapNum, pathLength;
-
+			// drawing seem to be the coordinates of the path being drawn
 			if (drawing) {
 				mapNum = -1;
-
+				// Iterate through the maps until we find the one whose id matches floor
 				for (i = 0; i < maps.length; i++) {
 					if (maps[i] === floor) {
 						mapNum = i;
@@ -1000,7 +1004,6 @@
 				}
 
 				level = -1;
-
 				for (i = 0; i < drawing.length; i++) {
 					if (drawing[i].floor === mapNum) {
 						level = i;
@@ -1214,6 +1217,7 @@
 
 		// The combined routing function
 		// revise to only interate if startpoint has changed since last time?
+		// destination is the selected room name (e.g. GroupStudy-167)
 		function routeTo(destination, el) {
 			var i,
 				draw,
@@ -1239,27 +1243,25 @@
 				ny,
 				thisPath,
 				pick;
-
-			options.endpoint = destination; //options from menu//
-
+			options.endpoint = destination; // options from menu//
 			// remove any prior paths from the current map set
+			// This selects all <path> elements within obj that have a class attribute starting with "directionPath".
 			$('path[class^=directionPath]', obj).remove();
 
-			//clear all rooms
+			// clear all rooms
+			// remove the class attribute from any element inside #Rooms (within the scope of obj) that has a class of wayfindingRoom, regardless of tag name.
 			$('#Rooms *.wayfindingRoom', obj).removeAttr('class');
 
 			solution = [];
-
-			//if startpoint != destination
+			// if startpoint != destination
 			if (startpoint !== destination) {
 				// get accessibleRoute option -- options.accessibleRoute
 
-				//highlight the destination room
+				// highlight the destination room
 				$('#Rooms a[id="' + destination + '"] g', obj).attr('class', 'wayfindingRoom');
+				// setEndPoint takes the room name and assigns the destination marker to that room on the map
 				setEndPoint(options.endpoint, el);
-
 				solution = getShortestRoute();
-
 				if (reversePathStart !== -1) {
 
 					portalsEntered = 0;
@@ -1269,10 +1271,8 @@
 							portalsEntered++;
 						}
 					}
-
 					//break this into a new function?
 					drawing = new Array(portalsEntered); // Problem at line 707 character 40: Use the array literal notation [].
-
 					drawing[0] = [];
 
 					//build drawing and modify solution for text generation by adding .direction to solution segments?
@@ -1283,7 +1283,6 @@
 						console.warn('Attempting to route with no solution. This should never happen. SVG likely has errors. Destination is: ' + destination);
 						return;
 					}
-
 					//if statement incorrectly assumes one door at the end of the path, works in that case, need to generalize
 					if (dataStore.p[solution[0].floor][solution[0].segment].d[0] === startpoint) {
 						draw = {};
@@ -1394,8 +1393,14 @@
 					if (options.path.radius > 0) {
 						for (level = 0; level < drawing.length; level++) {
 							for (i = 1; i < drawing[level].length - 1; i++) {
-								if (drawing[level][i].type === 'L' && drawing[level][i].type === 'L') {
+								if (drawing[level][i].type === 'L') {
 									// check for colinear here and remove first segment, and add its length to second
+									/*
+									aDX = 522.7 - 591.8 = -69.1
+									aDY = 460.8 - 460.8 = 0
+									bDX = 591.8 - 591.8 = 0
+									bDY = 460.8 - 384 = 76.8
+									*/ 
 									aDX = (drawing[level][i - 1].x - drawing[level][i].x);
 									aDY = (drawing[level][i - 1].y - drawing[level][i].y);
 									bDX = (drawing[level][i].x - drawing[level][i + 1].x);
@@ -1411,7 +1416,7 @@
 							}
 							for (i = 1; i < drawing[level].length - 1; i++) {
 								// locate possible curves based on both line segments being longer than options.path.radius
-								if (drawing[level][i].type === 'L' && drawing[level][i].type === 'L' && drawing[level][i].length > options.path.radius && drawing[level][i + 1].length > options.path.radius) {
+								if (drawing[level][i].type === 'L' && drawing[level][i].length > options.path.radius && drawing[level][i + 1].length > options.path.radius) {
 									//save old end point
 									cx = drawing[level][i].x;
 									cy = drawing[level][i].y;
@@ -1447,7 +1452,6 @@
 							} // drawing segment
 						} // level
 					} // if we are doing curves at all
-
 					$.each(drawing, function (j, map) {
 						var path = '',
 							newPath;
@@ -1496,7 +1500,8 @@
 						drawing[j].path = thisPath;
 
 					});
-
+					console.log("solution");
+					console.log(solution);
 					animatePath(0);
 
 					//on switch which floor is displayed reset path svgStrokeDashOffset to minPath and the reanimate
@@ -1628,6 +1633,7 @@
 
 					case 'initialize':
 						if (passed && passed.maps) {
+							// checkIds ensures floor ids are unique.
 							checkIds(obj);
 							initialize(obj, callback);
 						} else {
@@ -1647,6 +1653,7 @@
 					 */
 					case 'routeTo':
 						// call method
+						// passed is the room name (e.g. GroupStudy-167)
 						routeTo(passed, obj);
 						break;
 
@@ -1689,6 +1696,7 @@
 						break;
 					case 'currentMap':
 						// return and set
+						// passed = floor id (floor2, floor0, etc.)
 						if (passed === undefined) {
 							result = $('div:visible', obj).prop('id');
 						} else {
@@ -1701,7 +1709,15 @@
 							result = options.accessibleRoute;
 						} else {
 							options.accessibleRoute = passed;
-							establishDataStore(callback);
+							establishDataStore(function () {
+								// SVGs are loaded, dataStore is set, ready the DOM
+								setStartPoint(startpoint, obj);
+								setOptions(obj);
+								replaceLoadScreen(obj);
+								if (typeof cb === 'function') {
+									cb();
+								}
+							});
 						}
 						break;
 
@@ -1762,5 +1778,3 @@
 		return this;
 	};
 }(jQuery));
-
-//  ]]>

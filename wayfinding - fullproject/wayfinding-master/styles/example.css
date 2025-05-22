@@ -5,8 +5,187 @@ body {
 }
 
 #content {
-	border: 1px solid black;
 	width: 100%;
+}
+
+.popup {
+	position: absolute;
+	display: inline-block;
+	cursor: pointer;
+  }
+
+/* The actual popup (appears on top) */
+.popup .popupContent {
+	visibility: hidden;
+	height: 0px;
+	width: 1200px;
+	/* height: 900px; */
+	background-color: white;
+	color: #000000;
+	border-radius: 6px;
+	padding: 8px 0;
+	position: absolute;
+	z-index: 2;
+	margin-left: 120px;
+	margin-top: 50px;
+	padding-bottom: 0px;
+}
+
+
+#popupExitButton {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: white;
+	color: red;
+	border: none;
+	border-radius: 5px;
+	height: 30px;
+	width: 75px;
+	margin-left: 10px;
+}
+
+.floorDestinationBox {
+	margin-left: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	row-gap: 20px;
+	column-gap: 20px;
+}
+
+
+.floor_header {
+	margin-left: 10px;
+}
+
+.destination_button i {
+    margin-right: 5px; /* Adjust the space as needed */
+}
+
+.destination_button {
+	font-weight: bold;
+	background-color: #003366;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	height: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+	/* width: 180px; */
+}
+
+/* Popup arrow */
+.popup .popupContent::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity:1 ;}
+  }
+
+
+
+
+.filter {
+	/* height: 100%; */
+	height: 0px;
+	width: 100%;
+	position: absolute;
+	background-color: #000000;
+	opacity: .05;
+	visibility: hidden;
+}
+
+#contentRow {
+	display: grid;
+	grid-template-columns: 4fr 2fr;
+	/* align-items: center; */
+}
+
+.contentRight {
+	margin-top: 30px;
+	height: auto;
+	display: grid;
+	row-gap: 30px;
+	margin-right: 40%;
+	margin-bottom: 55%;
+}
+
+.routeSelectionButton {
+	background-color: #003366;
+	color: white;
+	border-radius: 4px;
+	height: 50px;
+}
+
+
+.floorsLabel {
+	/* margin-left: 23px; */
+	opacity: .5;
+}
+
+#floorButtons {
+	display: flex;
+	flex-direction: row;
+	column-gap: 30px;
+}
+
+.floorButtonActive {
+	color: #003366;
+	font-size: 45px;
+	background: none;
+	border: 0;
+	margin-left: -10px;
+}
+
+.floorButton {
+	margin-left: -10px;
+	font-size: 35px;
+	background: none;
+	border: 0;
+	opacity: .4;
+}
+
+.floorButton:hover{
+	opacity: .6;
+}
+
+#accessibilityOption {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	column-gap: 15px;
+	margin-top: 6px;
+}
+
+#accessibleButton {
+	transform:scale(2, 2);
+}
+
+#accessibleLabel {
+	font-size: 30px;
+	opacity: .5;
 }
 
 #myMaps {
@@ -14,9 +193,9 @@ body {
 	width: 100%px;
 }
 #myMaps div {
-	height: 480px;
-	margin: auto auto;
-	width: 600px;
+	height: 600px;
+	/* margin: auto auto; */
+	width: 850px;
 }
 #controls {
 	background-color: lightGrey;

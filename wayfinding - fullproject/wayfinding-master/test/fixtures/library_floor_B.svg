@@ -280,7 +280,7 @@
 	<line fill="none" stroke="#15FF1B" stroke-miterlimit="9.6" x1="562.5" y1="299.2" x2="581.2" y2="299.2"/>
 	<line fill="none" stroke="#15FF1B" stroke-miterlimit="9.6" x1="537.5" y1="268" x2="537.5" y2="255.5"/>
 	<line fill="none" stroke="#15FF1B" stroke-miterlimit="9.6" x1="487.5" y1="268" x2="487.5" y2="255.5"/>
-	<line fill="none" stroke="#15FF1B" stroke-miterlimit="9.6" x1="437.5" y1="255" x2="437.5" y2="268"/>
+	<line fill="none" stroke="#15FF1B" stroke-miterlimit="9.6" x1="437.5" y1="255.5" x2="437.5" y2="268"/>
 	<line fill="none" stroke="#15FF1B" stroke-miterlimit="9.6" x1="387.5" y1="255.5" x2="387.5" y2="268"/>
 	<line fill="none" stroke="#15FF1B" stroke-miterlimit="9.6" x1="356.2" y1="268" x2="356.2" y2="293"/>
 	<line fill="none" stroke="#15FF1B" stroke-miterlimit="9.6" x1="612.5" y1="399.2" x2="612.5" y2="361.8"/>
@@ -314,7 +314,7 @@
 	<line id="GS-G_1_" fill="none" stroke="#FFC033" stroke-miterlimit="10" x1="581.2" y1="299.2" x2="593.8" y2="299.2"/>
 	<line id="GS-H_1_" fill="none" stroke="#FFC033" stroke-miterlimit="10" x1="581.2" y1="274.2" x2="593.8" y2="274.2"/>
 	<line id="GS-026_1_" fill="none" stroke="#FFC033" stroke-miterlimit="10" x1="487.5" y1="255.5" x2="487.5" y2="249.2"/>
-	<line id="GS-028_1_" fill="none" stroke="#FFC033" stroke-miterlimit="10" x1="437.5" y1="255.5" x2="437.5" y2="249.2"/>
+	<line id="GS-028" fill="none" stroke="#FFC033" stroke-miterlimit="10" x1="437.5" y1="255.5" x2="437.5" y2="249.2"/>
 	<line id="GS-030_1_" fill="none" stroke="#FFC033" stroke-miterlimit="10" x1="387.5" y1="255.5" x2="387.5" y2="249.2"/>
 	<line id="PrinterfB_1_" fill="none" stroke="#FFC033" stroke-miterlimit="10" x1="356.2" y1="293" x2="356.2" y2="299.2"/>
 	<line id="SurfaceHub_1_" fill="none" stroke="#FFC033" stroke-miterlimit="10" x1="256.2" y1="468" x2="256.2" y2="461.8"/>
@@ -322,6 +322,6 @@
 </g>
 <g id="Portals">
 	<line id="Stair.1.floor1_2_" fill="none" stroke="#CE39FF" stroke-miterlimit="10" x1="675" y1="534" x2="662.5" y2="536.8"/>
-	<line id="Elev.1.floor1" fill="none" stroke="#B15FFF" stroke-miterlimit="9.6" x1="704.2" y1="478.9" x2="708.1" y2="483.6"/>
+	<line id="Elev.2.floor1" fill="none" stroke="#B15FFF" stroke-miterlimit="9.6" x1="704.2" y1="478.9" x2="708.1" y2="483.6"/>
 </g>
 </svg>
