@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1366px"
+	 height="768px" viewBox="0 0 1366 768" enable-background="new 0 0 1366 768" xml:space="preserve">
+<g id="Circulation_00000113347759074327881820000003291234089130061972_">
+	<path fill="#F6F6F6" d="M1036.5,116.5v-68h-695v68h-44v397h33v101h115v96h0.1c44.6-27.2,139.5-46,249.4-46
+		c105.3,0,196.8,17.2,243.5,42.6v-92.6h99v-101h41v-397H1036.5z"/>
+	<path fill="none" stroke="#A7A7A7" stroke-width="2" stroke-miterlimit="10" d="M635,555v30h-50c0,0-95,15-125,30h-30V500h70"/>
+	<polyline fill="none" stroke="#A7A7A7" stroke-width="2" stroke-miterlimit="10" points="430,615 330,615 330,515 295,515 295,390 
+			"/>
+	<line fill="none" stroke="#A7A7A7" stroke-width="2" stroke-miterlimit="10" x1="295" y1="390" x2="295" y2="225"/>
+	<polyline fill="none" stroke="#A7A7A7" stroke-width="2" stroke-miterlimit="10" points="295,225 295,115 520,115 520,260 	"/>
+	<path fill="none" stroke="#A7A7A7" stroke-width="2" stroke-miterlimit="10" d="M520,115h55v50c0,0,74.5,24.5,200,0v-50h45h255v400
+		h-35v100H940h-35c0,0-45.5-30.5-180-30v-85"/>
+	<polyline fill="none" stroke="#A7A7A7" stroke-width="2" stroke-miterlimit="10" points="775,500 905,500 905,535 	"/>
+	<line fill="none" stroke="#A7A7A7" stroke-width="2" stroke-miterlimit="10" x1="825" y1="500" x2="825" y2="590"/>
+	<path fill="none" stroke="#A7A7A7" stroke-width="2" stroke-miterlimit="10" d="M445,615v95c0,0,211-105.8,493.5-2.9V615"/>
+	<polyline fill="none" stroke="#A7A7A7" stroke-width="2" stroke-miterlimit="10" points="340,115 340,48.5 1036.5,48.5 1036.5,115 
+			"/>
+	<polyline fill="none" stroke="#A7A7A7" stroke-width="2" stroke-miterlimit="10" points="575,500 635,500 635,530 	"/>
+	<rect x="835" y="195" fill="#DFDFDF" width="150" height="150"/>
+	<rect x="313" y="135" fill="#DFDFDF" width="112" height="80"/>
+	<rect x="720" y="495" fill="#DFDFDF" width="110" height="100"/>
+	<rect x="385" y="350" fill="#DFDFDF" width="115" height="115"/>
+</g>
+<g id="Base">
+	<g id="Stairs">
+		
+			<rect x="575" y="380" fill="#FF8F99" width="60" height="45"/>
+		
+			<rect x="730" y="380" fill="#FF8F99" width="60" height="45"/>
+			<rect x="760" y="495" fill="#FF8F99" width="60" height="45"/>
+	</g>
+</g>
+<g id="Rooms">
+		<a id="GroupStudyRoom" xlink:href="#" >
+			<g>
+				<rect x="455" y="260" fill="#6481FF" width="60" height="65"/>
+			</g>
+		</a>		
+
+		<a id="Webinar" xlink:href="#" >
+			<g>
+				<rect x="455" y="190" fill="#6481FF" width="60" height="65"/>
+			</g>
+		</a>
+		<a id="GroupStudy_x5F_2" xlink:href="#" >
+			<g>
+				<rect x="300" y="240" fill="#6481FF" width="55" height="225"/>
+			</g>
+		</a>
+
+		<a id="MediaEditingRoom" xlink:href="#" >
+			<g>
+				<rect x="455" y="120" fill="#6481FF" width="60" height="65"/>
+			</g>
+		</a>
+
+
+		<a id="TechSquad" xlink:href="#" >
+			<g>
+				<polygon fill="#FFEB97" points="640,590 460,620 425,620 425,495 640,495 	"/>
+			</g>
+		</a>
+		<a id="GroupStudy_x5F_1" xlink:href="#" >
+			<g>		
+				<rect x="1015" y="205" transform="matrix(-1 -8.979185e-11 8.979185e-11 -1 2085 635)" fill="#6481FF" width="55" height="225"/>
+			</g>
+		</a>		
+		<a id="Bathrooms" xlink:href="#" >
+			<g>		
+				<rect x="830" y="495" fill="#CA8AFF" width="80" height="60"/>
+			</g>
+		</a>		
+		<a id="Laptop2_1_" xlink:href="#" >
+			<g>
+				<polygon fill="#B2FFA0" points="630,380 577.4,380 577.4,455 530,455 530,350 630,350 	"/>
+			</g>
+		</a>		
+		<a id="Circulation" xlink:href="#" >
+			<g>
+				<path fill="#FFEB97" d="M586,235c16.8,30,52.8,50.7,94.5,50.7c41.7,0,77.7-20.7,94.5-50.7H586z"/>
+			</g>
+		</a>
+		<a id="Laptop1_1_" xlink:href="#" >
+			<g>		
+				<polygon fill="#B2FFA0" points="735,380 787.6,380 787.6,455 835,455 835,350 735,350 	"/>
+			</g>
+		</a>
+
+</g>
+<g id="Labels">
+	<text transform="matrix(0 -1 1 0 324.8213 400.4785)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'DINCondensed-Bold'" font-size="16.5095px">GROUP STUDY ROOMS</tspan><tspan x="32" y="19.8" fill="#FFFFFF" font-family="'DINCondensed-Bold'" font-size="16.5095px">134 | 136</tspan></text>
+	<text transform="matrix(1 0 0 1 472.2993 149.7876)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'DINCondensed-Bold'" font-size="12.602px">MEDIA</tspan><tspan x="-2.8" y="15.1" fill="#FFFFFF" font-family="'DINCondensed-Bold'" font-size="12.602px">EDITING</tspan></text>
+	<text transform="matrix(1 0 0 1 466.6313 215.2974)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'DINCondensed-Bold'" font-size="12.602px">WEBINAR</tspan><tspan x="6.5" y="15.1" fill="#FFFFFF" font-family="'DINCondensed-Bold'" font-size="12.602px">ROOM</tspan></text>
+	<text transform="matrix(1 0 0 1 471.8462 280.4973)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'DINCondensed-Bold'" font-size="12.602px">GROUP</tspan><tspan x="0.8" y="15.1" fill="#FFFFFF" font-family="'DINCondensed-Bold'" font-size="12.602px">STUDY</tspan><tspan x="1.7" y="30.2" fill="#FFFFFF" font-family="'DINCondensed-Bold'" font-size="12.602px">ROOM</tspan></text>
+	<text transform="matrix(1 0 0 1 491.0952 550.5)" font-family="'DINCondensed-Bold'" font-size="23.0969px">TECH SQUAD</text>
+	<text transform="matrix(0 1 -1 0 1045.1787 259.5215)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'DINCondensed-Bold'" font-size="16.5095px">GROUP STUDY ROOMS</tspan><tspan x="33.5" y="19.8" fill="#FFFFFF" font-family="'DINCondensed-Bold'" font-size="16.5095px">167| 165</tspan></text>
+	<text transform="matrix(1 0 0 1 638.979 255.6776)"><tspan x="0" y="0" font-family="'DINCondensed-Bold'" font-size="20.3757px">CIRCULATION</tspan><tspan x="24.7" y="24.5" font-family="'DINCondensed-Bold'" font-size="20.3757px">DESK</tspan></text>
+	<text transform="matrix(1 0 0 1 866.7979 255.3726)" font-family="'DINCondensed-Bold'" font-size="20.6129px">STUDY SPACE</text>
+	<text transform="matrix(1 0 0 1 322.1064 160.4492)" font-family="'DINCondensed-Bold'" font-size="20.6129px">STUDY SPACE</text>
+	<text transform="matrix(1 0 0 1 397.1064 375.4491)" font-family="'DINCondensed-Bold'" font-size="20.6129px">STUDY SPACE</text>
+	<text transform="matrix(1 0 0 1 536.9102 420)" font-family="'DINCondensed-Bold'" font-size="12px">PRINTERS</text>
+	<text transform="matrix(1 0 0 1 791.6349 424.5413)" font-family="'DINCondensed-Bold'" font-size="12px">PRINTERS</text>
+	<text transform="matrix(1 0 0 1 761.0707 369.6944)" font-family="'DINCondensed-Bold'" font-size="12px">LAPTOP RENTAL</text>
+	<text transform="matrix(1 0 0 1 557.3813 370.3294)" font-family="'DINCondensed-Bold'" font-size="12px">LAPTOP RENAL</text>
+</g>
+<g id="Portals">
+	<line id="Stair.1.floor2" fill="none" stroke="#004FE7" stroke-miterlimit="10" x1="750" y1="565" x2="777.5" y2="537.5"/>
+	<line id="Stair.2.floor2" fill="none" stroke="#1734FF" stroke-miterlimit="10" x1="640" y1="400.5" x2="635" y2="400.5"/>
+	<line id="Stair.3.floor2" fill="none" stroke="#1734FF" stroke-miterlimit="10" x1="725" y1="400.5" x2="730" y2="400.5"/>
+</g>
+<g id="Doors">
+	
+	<line id="GroupStudyRoom_1_" fill="none" stroke="#FFC343" stroke-miterlimit="10" x1="440" y1="290" x2="455" y2="290"/>
+	<line id="Webinar_1_" fill="none" stroke="#FFC343" stroke-miterlimit="10" x1="440" y1="210" x2="455" y2="210"/>
+	<line id="MediaEditing_1_" fill="none" stroke="#FFC343" stroke-miterlimit="10" x1="440" y1="145" x2="455" y2="145"/>
+	<line id="GroupStudy_x5F_2_1_" fill="none" stroke="#FFC343" stroke-miterlimit="10" x1="365" y1="330" x2="355" y2="330"/>
+	<line id="Printers1_1_" fill="none" stroke="#FFC343" stroke-miterlimit="10" x1="525" y1="420" x2="530" y2="420"/>
+	<line id="Laptop1_1_" fill="none" stroke="#FFC343" stroke-miterlimit="10" x1="580" y1="350" x2="580" y2="355"/>
+	<line id="Laptop2_1_" fill="none" stroke="#FFC343" stroke-miterlimit="10" x1="795" y1="350" x2="795" y2="355"/>
+	<line id="Circulation_1_" fill="none" stroke="#FFC343" stroke-miterlimit="10" x1="680.5" y1="290" x2="680.5" y2="285"/>
+	<line id="Printers2_1_" fill="none" stroke="#FFC343" stroke-miterlimit="10" x1="845" y1="415" x2="835" y2="415"/>
+	<line id="Bathroom_1_" fill="none" stroke="#FFC343" stroke-miterlimit="10" x1="935" y1="525" x2="910" y2="525"/>
+	<line id="GroupStudy_x5F_1_1_" fill="none" stroke="#FFC343" stroke-miterlimit="10" x1="1000" y1="310" x2="1015" y2="310"/>
+	<line id="TechSquad_1_" fill="none" stroke="#FFC343" stroke-miterlimit="10" x1="515" y1="480" x2="515" y2="495"/>
+</g>
+<g id="Paths">
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680.5" y1="330" x2="680.5" y2="290"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680.5" y1="400" x2="680.5" y2="330"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680.5" y1="480" x2="680.5" y2="400"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680.5" y1="605" x2="680.5" y2="480"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="775" y1="330" x2="795" y2="350"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680" y1="330" x2="775" y2="330"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680" y1="330" x2="680" y2="330"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680" y1="330" x2="680" y2="330"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680" y1="330" x2="680" y2="330"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680" y1="330" x2="680" y2="330"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680" y1="330" x2="680" y2="330"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680" y1="330" x2="680" y2="330"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680" y1="330" x2="680" y2="330"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680" y1="330" x2="680" y2="330"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680" y1="330" x2="680" y2="330"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="600" y1="330" x2="680" y2="330"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="580" y1="350" x2="600" y2="330"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="515" y1="420" x2="525" y2="420"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="515" y1="480" x2="515" y2="420"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680" y1="480" x2="515" y2="480"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="750" y1="480" x2="680" y2="480"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="865" y1="480" x2="750" y2="480"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="865" y1="415" x2="845" y2="415"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="865" y1="480" x2="865" y2="415"/>
+	<polyline fill="none" stroke="#FF4BE8" stroke-miterlimit="10" points="440,210 440,290 365,330 365,480 515,480 	"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="440" y1="145" x2="440" y2="210"/>
+	<polyline fill="none" stroke="#FF4BE8" stroke-miterlimit="10" points="865,480 1000,480 1000,310 	"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="935.5" y1="480" x2="935.5" y2="525"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="750" y1="480" x2="750" y2="565"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="680" y1="400.5" x2="725" y2="400.5"/>
+	<line fill="none" stroke="#FF4BE8" stroke-miterlimit="10" x1="640" y1="400.5" x2="680" y2="400.5"/>
+</g>
+</svg>
